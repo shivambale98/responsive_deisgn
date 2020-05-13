@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
 .banner {
@@ -77,6 +78,7 @@
     position: relative;
     width: 100%;
     display: flex;
+    background-color: #162c3b;
 }
 .about .contentBx {
     background-color: #162c3b;
@@ -131,6 +133,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .services .container .serviceBx img{
     width: 100px;

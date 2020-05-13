@@ -14,7 +14,7 @@
               <div class="toggle"></div>
               </header>
               <img src="assets/bg.jpg" />
-              <div class="content">
+              <div class="content" data-0-top="opacity:0;left:100px;" data-100-top="opacity:1;left:0px;">
                <h2>Sucess by Design</h2>
                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
               </div>
@@ -25,8 +25,9 @@
 
             <section class="about">
                 <div class="contentBx">
-                   <h2 class="heading">About Us</h2>
-                   <p class="text">Contrary to popular belief, Lorem Ipsum is not 
+                   <h2 class="heading" data-center-center="opacity:1;left:0px;" data-top-top="opacity:0;left:500px;">About Us</h2>
+                   <p class="text" data-center-center="opacity:1;left:0px;" data-0-bottom="opacity:0;left:-500px">
+                       Contrary to popular belief, Lorem Ipsum is not 
                        simply random text. It has roots in a piece of classical Latin literature 
                        from 45 BC, making it over 2000 years old. Richard McClintock, a Latin 
                        professor at Hampden-Sydney College in Virginia, looked 
@@ -41,7 +42,7 @@
                        comes from a 
                        line in section 1.10.32.</p> 
                 </div>
-                <div class="imgBx"></div>
+                <div class="imgBx" data-center-center="opacity:1;left:0px" data-0-bottom="opacity:0;left:200px;"></div>
             </section>
 
 
@@ -181,5 +182,9 @@
                     <li><a href="#"><img src="assets/twitter.png"></a></li>
                 </ul>
              </section>
+             <script src="skrollr.js"></script>
+             <script type="text/javascript">
+               var s = skrollr.init();
+            </script>
         </body>
     </html>
