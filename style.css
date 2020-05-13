@@ -23,7 +23,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.25;
+    opacity: 0.5;
 }
 
 .banner .content {
@@ -104,7 +104,7 @@
 }
 
 .about .imgBX {
-    background: url(assets/window.jpg);
+    background: url(assets/drone-4256093_1280.jpg);
     width: 50%;
     background-size: cover;
     background-position: center;
@@ -231,9 +231,7 @@
 }
 
 .imgBx2 {
-    background: url(assets/bg2.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: #f50057;
     width: 50%;
 }
 .redbg {
@@ -293,7 +291,7 @@
 
 .footer {
     background: #162c3b;
-    padding: 20px 100px;
+    padding: 40px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -319,6 +317,10 @@
 max-width: 20px;
 }
 
+.drone {
+    width: 70%;
+    transform: translate(25%,50%);
+}
 
 /* mobile*/
 
@@ -392,5 +394,16 @@ max-width: 20px;
         margin-top: 40px;
         margin-bottom: 20px;
     }
+    .imgBx2 {
+        align-content: center;
+        margin-left: 0px;
+        background-color: #f50057;
+        width: 100%;
+    }
+    
+.drone {
+    width: 60%;
+    transform: translate(30%,10%);
+}
 
 }
